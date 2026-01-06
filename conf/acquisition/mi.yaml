@@ -1,0 +1,4 @@
+name: MI
+gamma: 0.99
+nu: 14.50865
+use_softmax: true

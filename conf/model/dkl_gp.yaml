@@ -1,0 +1,16 @@
+name: dkl_gp
+network:
+  hidden_units: 32
+  num_layers: 4
+  output_dim: 32
+  activation: relu
+kernel:
+  initial_alpha: 1.0
+  initial_beta: 0.01
+  initial_eta: 1.0
+  learn_priors: true
+pretrain:
+  enabled: true
+  epochs: 1000
+  lr: 0.01
+  patience: 20

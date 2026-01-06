@@ -1,0 +1,16 @@
+batch_size: 16
+lr: 0.0001
+epochs: 1000
+optimizer: Adam
+seed: 42
+gpu_id: 0
+max_tasks_per_step: 1
+mode: rl
+refit_mll: false
+mll_steps: 100
+mll_lr: 0.01
+ent_coef: 0.01
+val_interval: 10
+pretrain_lr: 0.01
+early_stopping_patience: 20
+reload_best: true

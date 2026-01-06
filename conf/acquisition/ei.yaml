@@ -1,0 +1,4 @@
+name: EI
+gamma: 0.99
+nu: 0.0
+use_softmax: true

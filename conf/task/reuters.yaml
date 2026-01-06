@@ -1,0 +1,7 @@
+name: reuters
+path: data/reuters_processed.pt
+input_dim: null
+num_classes: 8
+initial_pool_size: 1
+query_budget: 10
+candidate_pool_size: 500

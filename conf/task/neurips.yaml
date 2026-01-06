@@ -1,0 +1,7 @@
+name: neurips
+path: data/neurips_processed.pt
+input_dim: 1655
+num_classes: 13
+initial_pool_size: 1
+query_budget: 10
+candidate_pool_size: 500

@@ -1,0 +1,8 @@
+name: webkb
+path: data/webkb_processed.pt
+input_dim: null
+num_classes: 4
+initial_pool_size: 20
+initial_pool_size: 1
+query_budget: 10
+candidate_pool_size: 500

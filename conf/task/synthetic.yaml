@@ -1,0 +1,8 @@
+name: synthetic
+path: data/synthetic_processed.pt
+input_dim: 2
+num_classes: 1
+initial_pool_size: 5
+initial_pool_size: 1
+query_budget: 10
+candidate_pool_size: 500

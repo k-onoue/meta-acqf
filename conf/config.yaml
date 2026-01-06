@@ -1,0 +1,16 @@
+defaults:
+  - task: reuters
+  - model: dkl_gp
+  - acquisition: mi
+  - train: standard
+  - _self_
+
+hydra:
+  run:
+    dir: results/${train.mode}/${model.name}/${acquisition.name}/${task.name}/${now:%Y-%m-%d_%H-%M-%S}
+
+evaluation:
+  metric: average_cumulative_gap
+  seeds: 10
+  test_tasks: 50
+  validation_tasks: 20

@@ -1,0 +1,4 @@
+name: UCB
+gamma: 0.99
+nu: 0.1
+use_softmax: true
