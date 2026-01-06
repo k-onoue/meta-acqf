@@ -13,7 +13,7 @@ source .venv-meta/bin/activate
 uv pip install -e .
 ```
 
-## Setup Datasets
+## Setup Datasets (not necessary if you already have `data/*.pt`)
 
 Results are written under `results/${task}/${model}/${acquisition}/...` by Hydra.
 
