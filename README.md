@@ -69,4 +69,3 @@ bash scripts/run_baselines.sh
 
 
 
-https://aistudio.google.com/prompts/1LGSXAze6gNVeyEbifFhDfsBVTsKp9DyS# meta-acqf
